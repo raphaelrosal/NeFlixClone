@@ -1,0 +1,117 @@
+:root{/*DECLARAÇÃO DE VARIAVEL NO CSS3*/
+	--preto: #141414;
+	--vermelho: #E50914;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box  ;
+}
+body{
+   color: #fff;
+   background-color: var(--preto);
+   font-family: 'Arial', Times, serif;
+}
+header .container{
+	display: flex;/*por padrão ja vem setado em flex-direction: row,*/
+	align-items: center;
+	margin-top: .5%;
+	margin-bottom: .5%;
+	/*margin-left: 5%;cria um espaço entre a tag h2 e a tag nav*/
+
+}
+header .logo{
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size: 30px;
+	
+}
+header nav a{
+	text-decoration: none;
+	color:  #AAA;
+	margin-right: 10px;
+}
+header nav a:hover{
+	color: #fff;
+}
+/*filme principal*/
+.filme-principal{
+   font-size: 30px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/bannerFlash.jpg");
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   height: 900px;
+
+}
+.filme-principal .descricao{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.filme-principal .container{
+	width: 30%;
+}
+.titulo{
+	width: 70%;
+	margin-top: 15%;
+}
+.botao{
+	background-color: #fff
+	color: #000;
+	padding: 2% 4%;
+	font-size: 24px;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	font-weight: bold;
+	border: none;
+}
+.botao:hover{
+    background-color: rgb(200, 200, 200);
+    border: none;	
+}
+.botao i{
+	margin-right: 20px;
+}
+
+.btn-info{
+	border-radius: 5px;
+	background-color: rgba(100, 100, 100, .80	);
+	border: none;
+	color: #fff;
+	padding: 2% 30px;
+	font-size: 24px;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-weight: bold;
+	margin-left: 2%;
+}
+.btn-info:hover{
+	border: none;
+	background-color: rgba(88, 88, 88, 0.5);
+	transition: .3s ease all;
+}
+.btn-info i{
+	margin-right: 20px;
+}
+.container{
+	margin-left: 5%;
+
+}
+.box-template{
+	height: 100%;
+	width: 100%;
+
+	
+}
+.carrosel-titulo{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+.nav{
+	margin-left: 50px;
+}
