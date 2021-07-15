@@ -15,6 +15,7 @@
 	<title>Cloneflix</title>
 </head>
 <body>
+	
 	<header>
 		<div class="container">
 			<h2 class="logo">CLONEFLIX</h2>
@@ -26,6 +27,13 @@
 			</nav>
 		</div>
 	</header>
+
+	<div id="popup" class="popup">	
+			<img class="Xbtn" src="img/closeWindow.png" onclick="fecharPopup()">
+			<p class="paragrafo1"> cliqueno "X"para fechar o  Popup.</p>
+			<p class="paragrafo1"> Bem a pagina ainda precisa de muitas melhorias.</p>
+	</div>
+
 	<main>
 		<div class="filme-principal">
 			<div class="container">
@@ -36,7 +44,7 @@
 					    <i class="fas fa-play"></i>
 					    Assistir
 				    </button>
-			        <button role="button" class="btn-info">
+			        <button role="button" class="btn-info" onclick="abrirPopup()">
 			            <i class="fas fa-info-circle"></i>
 			            Mais informações
 			        </button>
@@ -108,7 +116,6 @@
             </div> 
         </div> 
 	</div>
-
     <script src="https://kit.fontawesome.com/ed97af06da.js" crossorigin="anonymous"></script>
 	<script src="js/owl/jquery.min.js"></script>
 	<script src="js/owl/owl.carousel.min.js"></script>
