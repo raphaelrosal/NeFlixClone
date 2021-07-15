@@ -44,8 +44,7 @@ header nav a:hover{
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
-   height: 900px;
-
+   height: 800px;
 }
 .filme-principal .descricao{
 	margin-top: 5%;
@@ -99,19 +98,23 @@ header nav a:hover{
 }
 .container{
 	margin-left: 5%;
-
 }
 .box-template{
 	height: 100%;
-	width: 100%;
-
-	
+	width:  100%;	
+}
+.carrosel-template{
+   margin-left: 100px;
+   font-size: 20px;
+   padding-top: 1%;
 }
 .carrosel-titulo{
-	margin-top: 1%;
-	margin-bottom: 1%;
-	margin-left: 5%;
+	padding-bottom: 1%;
 }
 .nav{
 	margin-left: 50px;
+}
+.item{
+	height:  400px;	
+	cursor: pointer;
 }
